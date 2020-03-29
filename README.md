@@ -16,14 +16,19 @@ $ ant -Dargs="src/resources/models/bob/bob.obj src/resources/models/bob/bob_tex.
 ```
 ## Shaders 
 ### Phong 
-![](/gifs/phong.gif)
 It does not need a texture argument to run correctly.
+
+![](/gifs/phong.gif)
 
 ### Gouraud
 It does not need a texture argument to run correctly.
 
+![](/gifs/gouraud.gif)
+
 ### Checkerboard
 It uses a Phong shading model, allowing it to have smooth shading as well as the Checkerboard effect. It does not need a texture argument to run correctly.
+
+![](/gifs/checker.gif)
    
 ### Texture-Modulated Smooth Shader
 It needs a texture argument to run correctly, so I recommend either of the following commands:
@@ -34,13 +39,21 @@ or
 
 `$ ant -Dargs="src/resources/models/bob/bob.obj src/resources/models/bob/bob_tex.png"`
 
+![](/gifs/text.gif)
+
 ### Normal Map
 It needs a texture argument to run correctly, so I recommend the following command:
 
 `$ ant -Dargs="src/resources/models/sphere.obj src/resources/textures/brick_texture.png"`
+
+![](/gifs/normal.gif)
   
 ### Cel (Toon) Shader
 It can be used with a texture argument or not.
+
+![](/gifs/cel.gif)
  
 ### Rainbow Psychedelic Shader!
 It does not need a texture argument to run correctly.
+
+![](/gifs/rainbow.gif)
