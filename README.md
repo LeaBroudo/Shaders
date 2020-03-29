@@ -16,7 +16,7 @@ $ ant -Dargs="src/resources/models/bob/bob.obj src/resources/models/bob/bob_tex.
 ```
 ## Shaders 
 ### Phong 
-![](etc/skeleton.gif)
+![](gifs/phong.gif)
 It does not need a texture argument to run correctly.
 
 ### Gouraud
