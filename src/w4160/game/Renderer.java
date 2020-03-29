@@ -247,7 +247,6 @@ public class Renderer {
 
         return shaderProgram;
     }
-    //TODO: TWO MORE!!!
 
     /**
      * Initialize the Renderer by setting up the shaders. You don't have to understand this 
@@ -515,6 +514,7 @@ public class Renderer {
             shaderProgram.setUniform("angle", angle);
 
         }
+
 
 
         //TODO: TWO MORE!!!
