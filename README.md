@@ -3,15 +3,14 @@
  My program takes one or two arguments. The first argument is the path to an .obj file, 
  and the second (optional) argument is a .png texture file. 
  
+ First, make sure you are in the top level directory. 
  To run my code with only one argument, do the following:
 ```
-$ cd pa2_starter
 $ ant -Dargs=src/resources/models/bob/bob.obj
 ```
 
 In order to run my code with two arguments, enclose both arguments in quotes to make them one long string like the following:
 ```
-$ cd pa2_starter
 $ ant -Dargs="src/resources/models/bob/bob.obj src/resources/models/bob/bob_tex.png"
 ```
 ## Shaders 
